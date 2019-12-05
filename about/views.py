@@ -4,3 +4,6 @@ from .models import Portfolio
 def about(request):
     portfolios = Portfolio.objects
     return render(request, 'about.html', {'portfolios': portfolios})
+
+def location(request):
+    return render(request, 'location.html')

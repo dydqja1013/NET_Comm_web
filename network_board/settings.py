@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '0&ys!p^eb4a1=6pb(mqkx-@6)))0&f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['ec2-52-40-28-132.us-west-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     'freeboard',
     'account',
     'about',
+    'jun',
+    'il',
+    'hyun',
+    'gu',
+    'chan',
 ]
 
 MIDDLEWARE = [

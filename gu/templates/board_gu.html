@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="jumbotron">
+    <div class="container">
+        <h1 class="jumbotron-heading">우리를 소개합니다</h1>
+        <p class="lead text-muted">이 홈페이지는 명지대학교 통신네트워크 강병찬, 김광일, 강다현, 강성구, 권준 학생들이 만든 블로그 홈페이지입니다. <br>밑은 간단한 소개글입니다!
+            누구든지 글을 남기고 싶다면 익명 게시판에 글을 남겨 주세요!!</p>
+    </div>
+</section>
+<div class="container">
+    {% for blog in posts %}
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{blog.title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{blog.pub_date}}</h6>
+            <p class="card-text">{{blog.summary}}</p>
+            <a href="{%url 'gu_detail' blog.id%}" class="card-link">...more</a>
+        </div>
+    </div>
+
+    {%endfor%}
+
+    <div>
+        <br>
+        {%if posts.has_previous%}
+
+        <a class="btn btn-outline-primary" href="?page=1" role="button">First</a>
+        <a class="btn btn-outline-primary" href="?page={{posts.previous_page_number}}" role="button">Previous</a>
+        {%endif%}
+
+        <span>{{posts.number}}</span>
+        <span>of</span>
+        <span>{{posts.paginator.num_pages}}</span>
+
+        {%if posts.has_next%}
+        <a class="btn btn-outline-primary" href="?page={{posts.next_page_number}}" role="button">Next</a>
+        <a class="btn btn-outline-primary" href="?page={{posts.paginator.num_pages}}" role="button">Last</a>
+        {%endif%}
+        <br>
+    </div>
+    <br>
+</div>
+
+{% endblock %}

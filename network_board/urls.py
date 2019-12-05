@@ -25,4 +25,9 @@ urlpatterns = [
     path('freeboard/',include('freeboard.urls')),
     path('account/',include('account.urls')),
     path('about/',include('about.urls')),
+    path('jun/',include('jun.urls')),
+    path('il/',include('il.urls')),
+    path('chan/',include('chan.urls')),
+    path('gu/',include('gu.urls')),
+    path('hyun/',include('hyun.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
