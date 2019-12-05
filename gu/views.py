@@ -28,10 +28,11 @@ def new(request):
 def create(request):
     blog = Blog_gu()
     blog.title = request.GET['title']
+    blog.author = request.GET['author']
     blog.body = request.GET['body']
     blog.pub_date = timezone.datetime.now()
     blog.save()
-    return redirect('/jun/' + str(blog.id))
+    return redirect('/gu/' + str(blog.id))
 
 
 def delete(request,blog_id):

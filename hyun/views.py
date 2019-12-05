@@ -28,6 +28,7 @@ def new(request):
 def create(request):
     blog = Blog_hyun()
     blog.title = request.GET['title']
+    blog.author = request.GET['author']
     blog.body = request.GET['body']
     blog.pub_date = timezone.datetime.now()
     blog.save()

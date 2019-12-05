@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="container">
+    <br>
 <div class="card">
     <div class="card-body">
         <h5 class="card-title">{{blog.title}}</h5>
@@ -10,7 +12,8 @@
         {%endif%}
         <p class="card-text">{{blog.body}}</p>
         <br>
-        <a href="{% url 'home' %}">돌아가기</a>
+        <a href="{% url 'freeboard' %}">돌아가기</a>
     </div>
+</div>
 </div>
 {% endblock %}
