@@ -10,6 +10,7 @@
 <div class="card">
     <div class="card-body">
         <h5 class="card-title">{{blog.title}}</h5>
+        <h5 class="card-title">{{blog.author}}</h5>
         <h6 class="card-subtitle mb-2 text-muted">{{blog.pub_date}}</h6>
         {% if blog.isFile %}
         <a href="{% url 'file' blog.id %}" novalidate>파일 다운로드</a>

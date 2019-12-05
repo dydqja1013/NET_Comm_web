@@ -3922,3 +3922,15 @@ Not Found: /docs/4.3/dist/css/bootstrap.min.css
 [05/Dec/2019 16:35:36] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
 Not Found: /gu/cover.css
 [05/Dec/2019 16:35:36] "GET /gu/cover.css HTTP/1.1" 404 4078
+/home/ubuntu/NET_Comm_web/il/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 11 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): chan, freeboard, gu, hyun, il, jun.
+Run 'python manage.py migrate' to apply them.
+December 05, 2019 - 15:55:07
+Django version 2.2.7, using settings 'network_board.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
