@@ -3432,3 +3432,493 @@ Not Found: /cover.css
 [05/Dec/2019 16:02:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
 [05/Dec/2019 16:02:38] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
 [05/Dec/2019 16:02:38] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[05/Dec/2019 16:02:53] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2132
+[05/Dec/2019 16:02:59] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[05/Dec/2019 16:02:59] "GET /admin/ HTTP/1.1" 200 10716
+[05/Dec/2019 16:02:59] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[05/Dec/2019 16:02:59] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[05/Dec/2019 16:02:59] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /admin/gu/blog_gu/ HTTP/1.1" 200 3161
+[05/Dec/2019 16:03:11] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:03:11] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:11] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:12] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:12] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[05/Dec/2019 16:03:14] "GET /admin/gu/blog_gu/add/ HTTP/1.1" 200 6128
+[05/Dec/2019 16:03:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:03:15] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[05/Dec/2019 16:03:15] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[05/Dec/2019 16:03:18] "GET / HTTP/1.1" 200 5503
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:03:18] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /cover.css
+[05/Dec/2019 16:03:18] "GET /cover.css HTTP/1.1" 404 3095
+[05/Dec/2019 16:03:19] "GET /freeboard/ HTTP/1.1" 200 6957
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:03:19] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:03:19] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:03:55] "GET /freeboard/ HTTP/1.1" 200 6428
+[05/Dec/2019 16:04:00] "GET /freeboard/ HTTP/1.1" 200 6962
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:04:00] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:04:01] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:04:03] "GET /freeboard/new/ HTTP/1.1" 200 5743
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:04:04] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/new/cover.css
+[05/Dec/2019 16:04:04] "GET /freeboard/new/cover.css HTTP/1.1" 404 4138
+Internal Server Error: /freeboard/create/
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/deployt_ec2/lib/python3.7/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'author'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/deployt_ec2/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.pyenv/versions/deployt_ec2/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.pyenv/versions/deployt_ec2/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/NET_Comm_web/freeboard/views.py", line 33, in create
+    blog.author = request.GET['author']
+  File "/home/ubuntu/.pyenv/versions/deployt_ec2/lib/python3.7/site-packages/django/utils/datastructures.py", line 80, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'author'
+[05/Dec/2019 16:04:08] "GET /freeboard/create/?title=d&body=d HTTP/1.1" 500 74648
+[05/Dec/2019 16:04:30] "POST /admin/gu/blog_gu/add/ HTTP/1.1" 200 6510
+[05/Dec/2019 16:04:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:04:37] "POST /admin/gu/blog_gu/add/ HTTP/1.1" 200 6510
+[05/Dec/2019 16:04:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:04:47] "POST /admin/gu/blog_gu/add/ HTTP/1.1" 302 0
+[05/Dec/2019 16:04:47] "GET /admin/gu/blog_gu/ HTTP/1.1" 200 4523
+[05/Dec/2019 16:04:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:04:48] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[05/Dec/2019 16:04:50] "GET /admin/gu/blog_gu/1/change/ HTTP/1.1" 200 6672
+[05/Dec/2019 16:04:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:04:52] "GET /admin/gu/blog_gu/ HTTP/1.1" 200 4333
+[05/Dec/2019 16:04:54] "GET /freeboard/ HTTP/1.1" 200 6962
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:04:55] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:04:55] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:04:58] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /gu/cover.css
+[05/Dec/2019 16:04:58] "GET /gu/cover.css HTTP/1.1" 404 4078
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:04:58] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:05:00] "GET /gu/1/ HTTP/1.1" 200 6454
+Not Found: /gu/1/cover.css
+[05/Dec/2019 16:05:00] "GET /gu/1/cover.css HTTP/1.1" 404 4084
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:05:00] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:05:10] "GET /admin/gu/blog_gu/add/ HTTP/1.1" 200 6128
+[05/Dec/2019 16:05:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:05:21] "POST /admin/gu/blog_gu/add/ HTTP/1.1" 200 6364
+[05/Dec/2019 16:05:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:05:31] "POST /admin/gu/blog_gu/add/ HTTP/1.1" 200 6364
+[05/Dec/2019 16:05:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[05/Dec/2019 16:05:35] "POST /admin/gu/blog_gu/add/ HTTP/1.1" 200 6372
+[05/Dec/2019 16:05:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:10] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/new/cover.css
+[05/Dec/2019 16:06:10] "GET /freeboard/new/cover.css HTTP/1.1" 404 4138
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:12] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:06:12] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:06:14] "GET /freeboard/new/ HTTP/1.1" 200 5805
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:14] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/new/cover.css
+[05/Dec/2019 16:06:14] "GET /freeboard/new/cover.css HTTP/1.1" 404 4138
+/home/ubuntu/.pyenv/versions/deployt_ec2/lib/python3.7/site-packages/django/db/models/fields/__init__.py:1427: RuntimeWarning: DateTimeField Blog.pub_date received a naive datetime (2019-12-05 16:06:17.966829) while time zone support is active.
+  RuntimeWarning)
+[05/Dec/2019 16:06:17] "GET /freeboard/create/?title=asdf&author=df&body=d HTTP/1.1" 302 0
+[05/Dec/2019 16:06:18] "GET /freeboard/5 HTTP/1.1" 301 0
+[05/Dec/2019 16:06:18] "GET /freeboard/5/ HTTP/1.1" 200 5746
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:18] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/5/cover.css
+[05/Dec/2019 16:06:19] "GET /freeboard/5/cover.css HTTP/1.1" 404 4132
+[05/Dec/2019 16:06:19] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:20] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:06:20] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:06:25] "GET /about/ HTTP/1.1" 200 9809
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:26] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/cover.css
+[05/Dec/2019 16:06:26] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /about/album.css
+[05/Dec/2019 16:06:26] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:06:36] "GET /about/ HTTP/1.1" 200 9809
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:36] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/cover.css
+[05/Dec/2019 16:06:36] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /about/album.css
+[05/Dec/2019 16:06:36] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:06:37] "GET /il/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:38] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /il/cover.css
+[05/Dec/2019 16:06:38] "GET /il/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:06:38] "GET /jun/ HTTP/1.1" 200 6096
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:39] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /jun/cover.css
+[05/Dec/2019 16:06:39] "GET /jun/cover.css HTTP/1.1" 404 4092
+[05/Dec/2019 16:06:40] "GET /hyun/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:40] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /hyun/cover.css
+[05/Dec/2019 16:06:40] "GET /hyun/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:06:41] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:41] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:06:41] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:06:44] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:44] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:06:44] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:06:47] "GET /gu/1/ HTTP/1.1" 200 6454
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:06:47] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/1/cover.css
+[05/Dec/2019 16:06:48] "GET /gu/1/cover.css HTTP/1.1" 404 4084
+[05/Dec/2019 16:07:00] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:00] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:07:00] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:07:01] "GET /gu/ HTTP/1.1" 200 6505
+[05/Dec/2019 16:07:01] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:01] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:01] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:07:02] "GET /gu/cover.css HTTP/1.1" 404 4078
+Not Found: /gu/cover.css
+[05/Dec/2019 16:07:02] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:07:03] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:03] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:07:03] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:07:04] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:04] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:07:04] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:07:06] "GET /gu/1/ HTTP/1.1" 200 6454
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:06] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/1/cover.css
+[05/Dec/2019 16:07:06] "GET /gu/1/cover.css HTTP/1.1" 404 4084
+[05/Dec/2019 16:07:12] "GET /gu/1/ HTTP/1.1" 200 6454
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:12] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/1/cover.css
+[05/Dec/2019 16:07:12] "GET /gu/1/cover.css HTTP/1.1" 404 4084
+[05/Dec/2019 16:07:27] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:27] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:07:27] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:07:32] "GET /il/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:32] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /il/cover.css
+[05/Dec/2019 16:07:32] "GET /il/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:07:33] "GET /jun/ HTTP/1.1" 200 6096
+[05/Dec/2019 16:07:33] "GET /chan/ HTTP/1.1" 200 6060
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:33] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /jun/cover.css
+[05/Dec/2019 16:07:33] "GET /jun/cover.css HTTP/1.1" 404 4092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:33] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:07:33] "GET /chan/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:07:34] "GET /chan/ HTTP/1.1" 200 6060
+[05/Dec/2019 16:07:34] "GET /hyun/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:34] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:07:34] "GET /chan/cover.css HTTP/1.1" 404 4106
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:34] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /hyun/cover.css
+[05/Dec/2019 16:07:34] "GET /hyun/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:07:35] "GET /chan/ HTTP/1.1" 200 6060
+[05/Dec/2019 16:07:36] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:36] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:36] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:07:36] "GET /chan/cover.css HTTP/1.1" 404 4106
+Not Found: /gu/cover.css
+[05/Dec/2019 16:07:36] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:07:37] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:37] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:07:37] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:07:40] "GET /freeboard/?page=2 HTTP/1.1" 200 6216
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:40] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:07:41] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:07:43] "GET /freeboard/?page=1 HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:43] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:07:43] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:07:48] "GET / HTTP/1.1" 200 5503
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:07:48] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /cover.css
+[05/Dec/2019 16:07:48] "GET /cover.css HTTP/1.1" 404 3095
+[05/Dec/2019 16:08:08] "GET /about/ HTTP/1.1" 200 9809
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:08:08] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/cover.css
+[05/Dec/2019 16:08:08] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /about/album.css
+[05/Dec/2019 16:08:08] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:10:54] "GET /about/ HTTP/1.1" 200 9809
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:10:55] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/cover.css
+[05/Dec/2019 16:10:55] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /about/album.css
+[05/Dec/2019 16:10:55] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:11:50] "GET /il/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:11:51] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /il/cover.css
+[05/Dec/2019 16:11:51] "GET /il/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:12:06] "GET /hyun/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:12:06] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /hyun/cover.css
+[05/Dec/2019 16:12:06] "GET /hyun/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:12:07] "GET /chan/ HTTP/1.1" 200 6060
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:12:07] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:12:07] "GET /chan/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:12:08] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:12:08] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:12:08] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:12:11] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:12:11] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:12:11] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:12:12] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:12:12] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:12:12] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:12:13] "GET /about/ HTTP/1.1" 200 9809
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:12:14] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/cover.css
+[05/Dec/2019 16:12:14] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /about/album.css
+[05/Dec/2019 16:12:14] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:14:08] "GET / HTTP/1.1" 200 5503
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:08] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /cover.css
+[05/Dec/2019 16:14:08] "GET /cover.css HTTP/1.1" 404 3095
+[05/Dec/2019 16:14:09] "GET /about/ HTTP/1.1" 200 9809
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:09] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/cover.css
+[05/Dec/2019 16:14:09] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /about/album.css
+[05/Dec/2019 16:14:09] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:14:18] "GET /il/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:19] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /il/cover.css
+[05/Dec/2019 16:14:19] "GET /il/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:14:20] "GET /jun/ HTTP/1.1" 200 6096
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:20] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /jun/cover.css
+[05/Dec/2019 16:14:20] "GET /jun/cover.css HTTP/1.1" 404 4092
+[05/Dec/2019 16:14:21] "GET /hyun/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:22] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /hyun/cover.css
+[05/Dec/2019 16:14:22] "GET /hyun/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:14:23] "GET /chan/ HTTP/1.1" 200 6060
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:23] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:14:23] "GET /chan/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:14:25] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:25] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:14:25] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:14:26] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:27] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:14:27] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:14:28] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:28] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:14:28] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:14:30] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:30] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:14:30] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:14:33] "GET /freeboard/?page=2 HTTP/1.1" 200 6216
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:33] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:14:34] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:14:35] "GET /chan/ HTTP/1.1" 200 6060
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:36] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:14:36] "GET /chan/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:14:37] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:37] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:14:37] "GET /gu/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:14:39] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:40] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:14:40] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:14:41] "GET /freeboard/new/ HTTP/1.1" 200 5805
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:41] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/new/cover.css
+[05/Dec/2019 16:14:41] "GET /freeboard/new/cover.css HTTP/1.1" 404 4138
+[05/Dec/2019 16:14:54] "GET /freeboard/ HTTP/1.1" 200 7092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:14:55] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:14:55] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:18:25] "GET /freeboard/ HTTP/1.1" 200 6563
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:26] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:18:26] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:27] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:18:27] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+Not Found: /favicon.ico
+[05/Dec/2019 16:18:27] "GET /favicon.ico HTTP/1.1" 404 3101
+[05/Dec/2019 16:18:34] "GET /freeboard/2/ HTTP/1.1" 200 5451
+Not Found: /freeboard/2/cover.css
+[05/Dec/2019 16:18:35] "GET /freeboard/2/cover.css HTTP/1.1" 404 4132
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:35] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:18:39] "GET / HTTP/1.1" 200 4974
+Not Found: /cover.css
+[05/Dec/2019 16:18:40] "GET /cover.css HTTP/1.1" 404 3095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:40] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:18:41] "GET /static/reading.jpg HTTP/1.1" 200 2758566
+[05/Dec/2019 16:18:44] "GET /chan/ HTTP/1.1" 200 5531
+Not Found: /chan/cover.css
+[05/Dec/2019 16:18:45] "GET /chan/cover.css HTTP/1.1" 404 4106
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:45] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:18:49] "GET /chan/ HTTP/1.1" 200 5531
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:50] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:18:50] "GET /chan/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:18:57] "GET /freeboard/ HTTP/1.1" 200 6563
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:18:57] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/cover.css
+[05/Dec/2019 16:18:57] "GET /freeboard/cover.css HTTP/1.1" 404 4126
+[05/Dec/2019 16:19:03] "GET /freeboard/4/ HTTP/1.1" 200 6312
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:04] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /freeboard/4/cover.css
+[05/Dec/2019 16:19:04] "GET /freeboard/4/cover.css HTTP/1.1" 404 4132
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:07] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:19:10] "GET /about/ HTTP/1.1" 200 9280
+Not Found: /about/cover.css
+[05/Dec/2019 16:19:10] "GET /about/cover.css HTTP/1.1" 404 3353
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:10] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /about/album.css
+[05/Dec/2019 16:19:10] "GET /about/album.css HTTP/1.1" 404 3353
+[05/Dec/2019 16:19:10] "GET /media/images/KakaoTalk_20191204_162919775.jpg HTTP/1.1" 200 18542
+[05/Dec/2019 16:19:10] "GET /media/images/%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9A%A9.jpg HTTP/1.1" 200 37070
+[05/Dec/2019 16:19:10] "GET /media/images/rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.jpg HTTP/1.1" 200 26315
+[05/Dec/2019 16:19:11] "GET /media/images/pen2.png HTTP/1.1" 200 126904
+[05/Dec/2019 16:19:29] "GET /il/ HTTP/1.1" 200 5566
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:29] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /il/cover.css
+[05/Dec/2019 16:19:29] "GET /il/cover.css HTTP/1.1" 404 4078
+[05/Dec/2019 16:19:31] "GET /jun/ HTTP/1.1" 200 5567
+Not Found: /jun/cover.css
+[05/Dec/2019 16:19:31] "GET /jun/cover.css HTTP/1.1" 404 4092
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:31] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:19:32] "GET /hyun/ HTTP/1.1" 200 5566
+Not Found: /hyun/cover.css
+[05/Dec/2019 16:19:32] "GET /hyun/cover.css HTTP/1.1" 404 4106
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:32] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+[05/Dec/2019 16:19:33] "GET /chan/ HTTP/1.1" 200 5531
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:19:33] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /chan/cover.css
+[05/Dec/2019 16:19:33] "GET /chan/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:35:31] "GET /admin/ HTTP/1.1" 200 10715
+[05/Dec/2019 16:35:34] "GET /hyun/ HTTP/1.1" 200 6095
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:35:34] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /hyun/cover.css
+[05/Dec/2019 16:35:34] "GET /hyun/cover.css HTTP/1.1" 404 4106
+[05/Dec/2019 16:35:35] "GET /gu/ HTTP/1.1" 200 6505
+[05/Dec/2019 16:35:36] "GET /gu/ HTTP/1.1" 200 6505
+Not Found: /docs/4.3/dist/css/bootstrap.min.css
+[05/Dec/2019 16:35:36] "GET /docs/4.3/dist/css/bootstrap.min.css HTTP/1.1" 404 3173
+Not Found: /gu/cover.css
+[05/Dec/2019 16:35:36] "GET /gu/cover.css HTTP/1.1" 404 4078
